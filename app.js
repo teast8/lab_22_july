@@ -8,10 +8,10 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a,b){ //eslint-disable-line
   var output = a + b;
-  var message = 'The sum of ' + a + ' and ' + b + ' is ' + output;
-  // console.log('The sum of 4 and 7 is 11. is the expected output');
-  // console.log(message + 'is the actual output');
-  return [output, message]
+  var message = 'The sum of ' + a + ' and ' + b + ' is ' + output + '.';
+  console.log('The sum of 4 and 7 is 11. is the expected output');
+  console.log( message + ' is the actual output.');
+  return [output, message];
 }
 
 // Here is the test for sum(); uncomment it to run it
